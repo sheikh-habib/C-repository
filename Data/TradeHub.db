@@ -1,0 +1,16 @@
+CREATE TABLE Orders (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    BuyerName TEXT,
+    Product TEXT,
+    Quantity INTEGER,
+    Price REAL,
+    Status TEXT
+);
+
+CREATE TABLE RFQs (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    BuyerName TEXT,
+    Product TEXT,
+    Quantity INTEGER,
+    Message TEXT
+);
