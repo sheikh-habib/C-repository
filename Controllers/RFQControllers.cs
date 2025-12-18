@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
+namespace YourNamespace.Controllers
+{
 [ApiController]
 [Route("api/rfq")]
 public class RFQController : ControllerBase
@@ -48,4 +53,5 @@ public class RFQController : ControllerBase
         }
         return Ok(list);
     }
+}
 }
